@@ -20,5 +20,5 @@ Image.onclick = function() {
 var Button = document.querySelector('button');
 var Head = document.querySelector('h1');
 	Button.onclick = function() {
-	location.href='https://soundcloud.com/dvnge';
+	location.href='http://clubmasters.ru/musicschool';
 }
