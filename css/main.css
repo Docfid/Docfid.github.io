@@ -1,0 +1,53 @@
+h1 {
+	Font-size: 50px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 0;
+	color: white;
+}
+p {
+	Font-size: 20px;
+	color: white;
+	left: 30px;
+	text-shadow: 2px 3px 5px #181818;
+}
+a {
+  color: #187CFF;
+  text-decoration:none;
+}
+html {
+	background-image: url(file:///C:/Users/DOCFID/Desktop/123/image/12.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+body {
+  top: 0px;
+  left: 300px;
+  text-align: center;
+  width: 1000px;
+  height: 2000px; 
+  margin: 0 auto;
+  background-color: black;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid #2B2B2B;
+  box-shadow:0px 0px 50px #187CFF;
+  
+}
+img {
+  display: block;
+  margin: auto;
+  height: 350px;
+  width: 600px;
+  box-shadow:0px 0px 25px #187CFF;
+}
+
+p1 {
+	color:white;
+}
+button {
+	background-color:black;
+	border: 3px solid #2B2B2B;
+	box-shadow: 0px 0px 10px #187CFF;
+}
+
+
