@@ -1,21 +1,32 @@
-var Image = document.querySelector('img');
-Image.onclick = function() {
-    var Src = Image.getAttribute('src');
-    if(Src === 'image/2.jpg') {
-		Image.setAttribute ('src','image/3.jpg');
-    }
-	else {
-		Image.setAttribute ('src','image/4.jpg');
-	}
-	 if(Src === 'image/4.jpg') {
-		Image.setAttribute ('src','image/5.jpg');
-	 }
-	 if(Src === 'image/5.jpg') {
-		Image.setAttribute ('src','image/2.jpg'); 
-	 }
-}
 var Button = document.querySelector('button');
 var Head = document.querySelector('h1');
 	Button.onclick = function() {
 	location.href='http://clubmasters.ru/musicschool';
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
 }
