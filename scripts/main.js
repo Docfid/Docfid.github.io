@@ -1,7 +1,7 @@
 var Button = document.querySelector('button');
 var Head = document.querySelector('h1');
 	Button.onclick = function() {
-	location.href='http://clubmasters.ru/musicschool';
+	location.href="Second index/index2.html";
 }
 
 var slideIndex = 1;
