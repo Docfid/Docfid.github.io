@@ -1,7 +1,13 @@
 var Button = document.querySelector('button');
 var Head = document.querySelector('h1');
 	Button.onclick = function() {
-	location.href="Second index/index2.html";
+  location.href="Second index/index2.html";
+}
+
+var Button = document.querySelector('button2');
+var Head = document.querySelector('h1');
+	Button.onclick = function() {
+  location.href="Threst index/index.html";
 }
 
 var slideIndex = 1;
