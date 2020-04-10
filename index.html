@@ -1,56 +1,51 @@
 ﻿<!DOCTYPE html>
 <html>
   <head>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
-    <title>Моя тестовая страница</title>
+    <title>AutoHub</title>
+    <a id="a2"> AutoHub </a> 
+    <a id="a3"> +8 (800) 555-35-35</a>
+    <a href="https://www.instagram.com/usama_.official/"><img id="a4" src="images/inst2.png" alt=""> </a>
+    <a href="https://www.instagram.com/_irrrisa._/"><img id="a4" src="images/inst2.png" alt=""> </a>
   </head>
   <body>
-		<div class = "bloc">
-			<link href="css/main.css" rel="stylesheet" type="text/css"> 
-			<h1>Your mind will make awesome music!</h1>
-			<div class="slideshow-container">
+    <img id="a1" src="images/5.jpg" alt="">  
+<div class="slider">
+  	<div class="item">
+        <a href="g63/g63.html"><img src="images/1.jpg" alt="Первый слайд"> </a>
+        <div class="slideText">Mercedes-Benz G63 AMG </div>
+    </div>
 
-			<div class="mySlides fade">
-				<img src="image/2.jpg">
-			</div>
-		
-			<div class="mySlides fade">
-				<img src="image/3.jpg">
-			</div>
-		
-			<div class="mySlides fade">
-				<img src="image/4.jpg">
-			</div>
+    <div class="item">
+        <a href="X5M/X5M.html"><img src="images/2.jpg" alt="Второй слайд"> </a>
+        <div class="slideText">BMW X5M</div>
+    </div>
 
-			<div class="mySlides fade">
-				<img src="image/5.jpg">
-			</div>
-			
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-			</div>
-			<br>
-		
-			<div style="text-align:center">
-			<span class="dot" onclick="currentSlide(1)"></span> 
-			<span class="dot" onclick="currentSlide(2)"></span> 
-			<span class="dot" onclick="currentSlide(3)"></span>
-			<span class="dot" onclick="currentSlide(4)"></span> 
-			</div>
+    <div class="item">
+        <a href="GLS63/GLS63.html"><img src="images/3.jpg" alt="Третий слайд">
+        <div class="slideText">Mercedes-Benz GLS63 AMG</div> </a>
+    </div>
+    <div class="item">
+      <a href="M5F90/M5F90.html"><img src="images/4.jpg" alt="Третий слайд">
+      <div class="slideText">BMW M5 F90</div> </a>
+  </div>
 
+  	<a class="prev" onclick="minusSlide()">&#10094;</a>
+  	<a class="next" onclick="plusSlide()">&#10095;</a>
+</div>
+<br>
 
-			<div class = "txt">
-			<p>Все делятся на два типа.</p>
-			<p>Музыка для меня это всегда что-то большее :D .</p>
-			<p>Пока это только хобби :( .</p>
-			<p>И не зависимо от того, кто ты. Ты можешь стать профессионалом как
-			<a href="https://soundcloud.com/dvnge"> мы.</a></p>
-			</div>
+<div class="slider-dots">
+	<span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+  	<span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+    <span class="slider-dots_item" onclick="currentSlide(4)"></span>  
+</div>
+	
+<script src="java/sim-slider.js"></script>
 
-			<button>Письмо</button>
-			<button2>Второй сайт</button2>
-
-			<script src="scripts/main.js"></script>
-		</div>
-  </body>
+ 
+</body>
 </html>
